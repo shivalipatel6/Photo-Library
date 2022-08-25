@@ -1,0 +1,21 @@
+|+|stock
+|p|.\data\textpop.PNG|d|2022/3/13|c|Text Pop|t|genre=game
+|p|.\data\lowpolyraclemon.PNG|d|2022/3/13|c|Gray Raccoon|t|animal=raccoon|t|color=gray
+|p|.\data\lowpolyraccoon.PNG|d|2022/3/13|c|Red Raccon|t|animal=raccoon|t|color=red
+|p|.\data\gray.PNG|d|2022/3/13|c|Gray|t|color=gray
+|p|.\data\githubicon.png|d|2022/3/13|c|Github Logo|t|||**ERROR**||
+|+|new al
+|p|.\data\textpop.PNG|d|2022/3/13|c|Text Pop|t|genre=game
+|p|.\data\lowpolyraclemon.PNG|d|2022/3/13|c|Gray Raccoon|t|animal=raccoon|t|color=gray
+|p|.\data\lowpolyraccoon.PNG|d|2022/3/13|c|Red Raccon|t|animal=raccoon|t|color=red
+|p|.\data\gray.PNG|d|2022/3/13|c|Gray|t|color=gray
+|p|.\data\githubicon.png|d|2022/3/13|c|Github Logo|t|||**ERROR**||
+|+|shiv
+|p|C:\Users\shiva\OneDrive\Pictures\Camera Roll\octocat.png|d|2022/3/25|c|Best day ever!|t|person=you|t|location=here
+|p|C:\Users\shiva\OneDrive\Pictures\Camera Roll\IMG_8618.PNG|d|2022/3/23|c|Best day ever!|t|person=you|t|location=here
+|+|hello344
+|p|.\data\textpop.PNG|d|2022/3/13|c|Text Pop|t|genre=game
+|p|.\data\lowpolyraclemon.PNG|d|2022/3/13|c|Gray Raccoon|t|animal=raccoon|t|color=gray
+|p|.\data\lowpolyraccoon.PNG|d|2022/3/13|c|Red Raccon|t|animal=raccoon|t|color=red
+|p|.\data\gray.PNG|d|2022/3/13|c|Gray|t|color=gray
+|p|.\data\githubicon.png|d|2022/3/13|c|Github Logo|t|||**ERROR**||

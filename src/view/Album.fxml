@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPaneUI" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.AlbumController">
+   <children>
+      <SplitPane dividerPositions="0.15110441767068275" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="600.0" prefWidth="800.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="80.0" prefWidth="706.0">
+               <children>
+                  <Button fx:id="captionUI" layoutX="103.0" layoutY="37.0" mnemonicParsing="false" onAction="#buttonEvent" prefHeight="34.0" prefWidth="80.0" text="Caption">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="openUI" layoutX="287.0" layoutY="37.0" mnemonicParsing="false" onAction="#buttonEvent" prefHeight="34.0" prefWidth="80.0" text="Open">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="logOutUI" layoutX="744.0" layoutY="24.0" mnemonicParsing="false" onAction="#buttonEvent" prefHeight="40.0" prefWidth="40.0" text="X">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <MenuButton layoutX="14.0" layoutY="36.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="80.0" text="Photo">
+                     <items>
+                        <MenuItem fx:id="addPhotoUI" mnemonicParsing="false" onAction="#menuEvent" text="Add" />
+                        <MenuItem fx:id="deletePhotoUI" mnemonicParsing="false" onAction="#menuEvent" text="Delete" />
+                     </items>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="14.0" />
+                     </font>
+                  </MenuButton>
+                  <MenuButton layoutX="196.0" layoutY="37.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="80.0" text="Tags">
+                     <items>
+                        <MenuItem fx:id="addTagsUI" mnemonicParsing="false" onAction="#menuEvent" text="Add" />
+                        <MenuItem fx:id="deleteTagsUI" mnemonicParsing="false" onAction="#menuEvent" text="Delete" />
+                     </items>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="16.0" />
+                     </font>
+                  </MenuButton>
+                  <MenuButton layoutX="471.0" layoutY="37.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="80.0" text="Copy">
+                     <items>
+                        <MenuItem fx:id="copyPhotoUI" mnemonicParsing="false" onAction="#menuEvent" text="Copy" />
+                        <MenuItem fx:id="movePhotoUI" mnemonicParsing="false" onAction="#menuEvent" text="Move" />
+                     </items>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="15.0" />
+                     </font>
+                  </MenuButton>
+                  <MenuButton layoutX="379.0" layoutY="38.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="80.0" text="Search">
+                     <items>
+                        <MenuItem fx:id="sortByDefaultUI" mnemonicParsing="false" onAction="#menuEvent" text="All" />
+                        <MenuItem fx:id="sortByDateUI" mnemonicParsing="false" onAction="#menuEvent" text="By Date" />
+                        <MenuItem fx:id="sortByTagUI" mnemonicParsing="false" onAction="#menuEvent" text="By Tag" />
+                     </items>
+                     <font>
+                        <Font name="Yu Gothic Regular" size="13.0" />
+                     </font>
+                  </MenuButton>
+                  <Text layoutX="560.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selected Photo:">
+                     <font>
+                        <Font name="Yu Gothic Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="selectedPhotoUI" layoutX="560.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="None" textAlignment="JUSTIFY" wrappingWidth="180.5985107421875">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shown Photos:">
+                     <font>
+                        <Font name="Yu Gothic Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="shownPhotosUI" layoutX="131.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="21.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="445.0" prefWidth="741.0" />
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
